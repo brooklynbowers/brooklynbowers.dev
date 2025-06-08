@@ -349,7 +349,15 @@ button:focus {
   background-position: center;
   background-size: cover; }
   .home_banner_area .banner_inner {
-    width: 100%; }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: auto;
+  width: 100%;
+}
     .home_banner_area .banner_inner .home_right_img {
       padding-top: 197px; }
       @media (max-width: 1480px) {
@@ -467,13 +475,7 @@ button:focus {
           margin-right: 0px; }
           .banner_area .banner_inner .banner_content .page_link a:last-child:before {
             display: none; }
-.home_banner_area .banner_inner {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  min-height: 700px; /* key fix */
-  overflow: visible;
-}
+
 
 /* End Home Banner Area css
 ============================================================================================ */
