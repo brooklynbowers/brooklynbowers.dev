@@ -5,29 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Brooklyn Bowers</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-    <a href="blog.html">Blog</a>
-  </nav>
+  <header>
+    <nav>
+      <h1 class="logo">Brooklyn Bowers</h1>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <div class="container">
-    <h1>Hi, I'm Brooklyn</h1>
-    <p>Data-driven educator turned aspiring data scientist, blending math, machine learning, and storytelling.</p>
-    <img src="img/about-us.png" alt="Photo of Brooklyn" style="max-width:100%; border-radius: 8px;" />
-    <p><a href="https://your-cv-link.com" target="_blank">View My CV</a></p>
+  <main class="home">
+    <section class="about">
+      <img src="img/about-us.png" alt="Picture of Brooklyn" class="profile-pic">
+      <div class="bio">
+        <h2>Hello, I'm Brooklyn 👋</h2>
+        <p>
+          I'm a data-driven educator and aspiring data scientist. With over 7 years of teaching experience and a background in mathematics, I bring a passion for lifelong learning, clear communication, and technical problem solving.
+        </p>
+        <a href="path-to-cv.pdf" class="btn" target="_blank">Download CV</a>
+      </div>
+    </section>
 
-    <h2>Current Projects</h2>
-    <ul>
-      <li>Soccer Kick Path Visualizer (Computer Vision)</li>
-      <li>Commercial Insurance Targeting with FMCSA Data</li>
-      <li>OSU GE Course Planner (Streamlit)</li>
-    </ul>
+    <section class="skills">
+      <h3>Skills</h3>
+      <ul>
+        <li>Python, Pandas, NumPy</li>
+        <li>Machine Learning</li>
+        <li>SQL, Git & GitHub</li>
+        <li>Data Visualization (Matplotlib, Seaborn)</li>
+      </ul>
+    </section>
+  </main>
 
-    <h2>Skills</h2>
-    <p>Python, pandas, scikit-learn, HTML/CSS, SQL, Git, Jupyter, fastai</p>
-  </div>
+  <footer>
+    <p>&copy; 2025 Brooklyn Bowers</p>
+  </footer>
 </body>
 </html>
