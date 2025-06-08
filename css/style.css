@@ -1,37 +1,150 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-
+/* Base Styles */
 body {
-  font-family: 'Sacramento', cursive;
   margin: 0;
   padding: 0;
-  background: #fff;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
   color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #f7f7f7;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddd;
 }
 
 nav {
-  background: #222;
-  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-nav a {
+.logo {
+  font-family: 'Sacramento', cursive;
+  font-size: 2.5rem;
+  color: #222;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+nav li a {
+  font-weight: bold;
+  color: #222;
+  padding: 0.5rem 0.75rem;
+}
+
+nav li a:hover {
+  color: #0077cc;
+}
+
+/* Main Layout */
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.profile-pic {
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bio {
+  flex: 1;
+}
+
+.bio h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.bio p {
+  margin-top: 0.5rem;
+}
+
+/* Skills Section */
+.skills ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+  padding-left: 1rem;
+}
+
+.skills li::before {
+  content: "✔ ";
+  color: #0077cc;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #222;
   color: #fff;
-  margin-right: 20px;
-  text-decoration: none;
-  font-size: 18px;
+  border-radius: 4px;
+  margin-top: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
-nav a:hover {
+.btn:hover {
+  background-color: #444;
+}
+
+/* Project & Blog Lists */
+.project-list li,
+.blog-list li {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.project-list h3,
+.blog-list h3 {
+  margin-bottom: 0.5rem;
+}
+
+.blog-list a {
+  color: #0077cc;
+}
+
+.blog-list a:hover {
   text-decoration: underline;
 }
 
-.container {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 0 20px;
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #888;
+  font-size: 0.875rem;
+  border-top: 1px solid #eee;
+  margin-top: 3rem;
 }
-
-h1, h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
