@@ -148,3 +148,13 @@ footer {
   border-top: 1px solid #eee;
   margin-top: 3rem;
 }
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.fancy {
+  font-family: 'Sacramento', cursive;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
