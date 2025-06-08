@@ -158,3 +158,11 @@ body {
   font-size: 2.5rem;
   letter-spacing: 1px;
 }
+
+.fancy.hi {
+  font-size: 2rem;
+}
+
+.fancy.name {
+  font-size: 3rem;
+}
