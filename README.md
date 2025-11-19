@@ -9,7 +9,7 @@ Welcome to my personal portfolio website! This site was built to showcase my cur
 
 ## About Me
 
-I'm a data-driven educator and aspiring data scientist with 7+ years of teaching experience and a strong foundation in mathematics. I’m passionate about problem solving, educational innovation, and using data to drive decisions. This site reflects my ongoing journey of learning, teaching, and building.
+I'm a data-driven educator and data scientist with 7+ years of teaching experience and a strong foundation in mathematics and applied statistics. I’m passionate about problem solving, educational innovation, and using data to drive decisions. This site reflects my ongoing journey of learning, teaching, and building.
 
 ---
 
