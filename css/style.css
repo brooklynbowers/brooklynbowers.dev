@@ -109,7 +109,7 @@ main {
 }
 
 .skills li::before {
-  content: "✔ ";
+  content: "∴ ";
   color: #0077cc;
 }
 
