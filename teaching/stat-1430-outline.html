@@ -4,45 +4,195 @@
   <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blog - Brooklyn Bowers</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <title>Stat 1430 Outline - Brooklyn Bowers</title>
+
+  <!-- IMPORTANT: go up one level to find css/ -->
+  <link rel="stylesheet" href="../css/style.css" />
 </head>
 <body>
   <header>
     <nav>
       <h1 class="logo">Brooklyn Bowers</h1>
       <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="teaching.html">Teaching</a></li>
-        <li><a href="blog.html">Blog</a></li>
+        <!-- all links go up one level first -->
+        <li><a href="../index.html">About</a></li>
+        <li><a href="../projects.html">Projects</a></li>
+        <li><a href="../teaching.html">Teaching</a></li>
+        <li><a href="../blog.html">Blog</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <h2>Stat 1430 Outline</h2>
-    <ul class="blog-list">
-      
-      <li>
-        <h3>UNIT 1 — Data & Descriptive Statistics</h3>
-        <p>1. Data, Sampling, and Observational Studies</p>
-        <p>Introductory Business Statistics
+    <p class="page-intro">
+      This page summarizes the major units, topics, and supporting OpenStax sections
+      for Stat 1430 – Statistics for the Business Sciences.
+    </p>
 
-              1.1–1.4 (What is statistics? Populations, samples, variables)
+    <!-- ===== Units & Topics ===== -->
 
-              1.5 Types of Data
+    <section class="outline-section">
+      <h3>Unit 1 — Data &amp; Descriptive Statistics</h3>
+      <ul>
+        <li>Data, sampling, and observational studies</li>
+        <li>Observational studies vs. experiments</li>
+        <li>Graphing and summarizing data (numerical and graphical summaries)</li>
+        <li>Correlation and simple linear regression</li>
+      </ul>
+    </section>
 
-              1.6 Sampling Techniques
+    <section class="outline-section">
+      <h3>Unit 2 — Probability Theory</h3>
+      <ul>
+        <li>Two-way tables and basic probability</li>
+        <li>Joint, marginal, and conditional probabilities</li>
+        <li>Independence</li>
+        <li>Bayes’ Rule</li>
+      </ul>
+    </section>
 
-            Introductory Statistics
+    <section class="outline-section">
+      <h3>Unit 3 — Random Variables</h3>
+      <ul>
+        <li>Discrete random variables and their distributions</li>
+        <li>Expected value and standard deviation</li>
+        <li>Continuous random variables and density curves</li>
+        <li>Normal distribution and z-scores</li>
+      </ul>
+    </section>
 
-              1.1–1.3 Data, Sampling, Experimental Design
+    <section class="outline-section">
+      <h3>Unit 4 — Sampling Distributions</h3>
+      <ul>
+        <li>Sampling distribution of the sample mean (x&#772;)</li>
+        <li>Sampling distribution of the sample proportion (p&#770;)</li>
+        <li>Central Limit Theorem</li>
+      </ul>
+    </section>
 
-1.4 Types of Studies (Observational vs. Experimental)</p>
-      </li>
-      
-    </ul>
+    <section class="outline-section">
+      <h3>Unit 5 — Inferential Statistics</h3>
+      <ul>
+        <li>Confidence intervals for μ and p</li>
+        <li>Hypothesis tests for μ and p</li>
+        <li>t-distribution and inference when σ is unknown</li>
+        <li>Connecting interpretations back to real-world business decisions</li>
+      </ul>
+    </section>
+
+    <!-- ===== Side-by-side mapping table ===== -->
+
+    <section class="outline-section">
+      <h3>STAT 1430 Topics &amp; OpenStax Sections</h3>
+      <p>
+        These OpenStax sections are suggested readings that align with the main course topics.
+      </p>
+
+      <div class="outline-table-wrapper">
+        <table class="outline-table">
+          <thead>
+            <tr>
+              <th>STAT 1430 Topic</th>
+              <th>OpenStax Sections</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Data, Sampling, Observational Studies</td>
+              <td>
+                <strong>Introductory Business Statistics:</strong> 1.1–1.6<br>
+                <strong>Introductory Statistics:</strong> 1.1–1.4
+              </td>
+            </tr>
+            <tr>
+              <td>Observational Studies &amp; Experiments</td>
+              <td>
+                <strong>Business Stats:</strong> 1.4<br>
+                <strong>Statistics:</strong> 1.3–1.4
+              </td>
+            </tr>
+            <tr>
+              <td>Graphing &amp; Summarizing Data</td>
+              <td>
+                <strong>Business Stats:</strong> 2.1–2.6<br>
+                <strong>Statistics:</strong> 2.1–2.8, 3.1–3.3
+              </td>
+            </tr>
+            <tr>
+              <td>Correlation &amp; Linear Regression</td>
+              <td>
+                <strong>Business Stats:</strong> 12.1–12.3<br>
+                <strong>Statistics:</strong> 13.1–13.3
+              </td>
+            </tr>
+            <tr>
+              <td>Two-Way Tables &amp; Basic Probability</td>
+              <td>
+                <strong>Business Stats:</strong> 3.1–3.3<br>
+                <strong>Statistics:</strong> 3.1–3.4, 4.1–4.2
+              </td>
+            </tr>
+            <tr>
+              <td>Conditional Probability &amp; Independence</td>
+              <td>
+                <strong>Business Stats:</strong> 3.3<br>
+                <strong>Statistics:</strong> 4.2–4.3
+              </td>
+            </tr>
+            <tr>
+              <td>Bayes’ Rule</td>
+              <td>
+                <strong>Business Stats:</strong> 3.4<br>
+                <strong>Statistics:</strong> 4.4
+              </td>
+            </tr>
+            <tr>
+              <td>Discrete Random Variables</td>
+              <td>
+                <strong>Business Stats:</strong> 4.1–4.3<br>
+                <strong>Statistics:</strong> 5.1–5.3
+              </td>
+            </tr>
+            <tr>
+              <td>Continuous Random Variables &amp; Normal Distribution</td>
+              <td>
+                <strong>Business Stats:</strong> 5.1–5.3<br>
+                <strong>Statistics:</strong> 6.1–6.5
+              </td>
+            </tr>
+            <tr>
+              <td>Sampling Distributions of x&#772; and p&#770;</td>
+              <td>
+                <strong>Business Stats:</strong> 7.1–7.4<br>
+                <strong>Statistics:</strong> 7.1–7.4
+              </td>
+            </tr>
+            <tr>
+              <td>Confidence Intervals for μ and p</td>
+              <td>
+                <strong>Business Stats:</strong> 8.1–8.4<br>
+                <strong>Statistics:</strong> 8.1–8.4
+              </td>
+            </tr>
+            <tr>
+              <td>Hypothesis Testing for μ and p</td>
+              <td>
+                <strong>Business Stats:</strong> 9.1–9.4<br>
+                <strong>Statistics:</strong> 9.1–9.5
+              </td>
+            </tr>
+            <tr>
+              <td>t-Distribution (σ unknown)</td>
+              <td>
+                <strong>Business Stats:</strong> 9.5–9.6<br>
+                <strong>Statistics:</strong> 9.6
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
   </main>
 
   <footer>
@@ -50,3 +200,4 @@
   </footer>
 </body>
 </html>
+
