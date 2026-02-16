@@ -291,3 +291,37 @@ main h2 {
   font-weight: 600;
 }
 
+.cta-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.btn.secondary {
+  background: transparent;
+  border: 2px solid #222;
+  color: #222;
+}
+
+.micro {
+  font-size: 0.95rem;
+  margin-top: 14px;
+  opacity: 0.85;
+}
+
+.value-prop {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.script-accent {
+  font-family: 'Sacramento', cursive;
+  font-size: 1.2rem;
+  opacity: 0.8;
+  margin-top: 6px;
+}
+
+
