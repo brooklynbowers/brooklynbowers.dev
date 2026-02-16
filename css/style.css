@@ -311,11 +311,13 @@ main h2 {
 }
 
 .value-prop {
-  font-size: 1.4rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
 }
+
 
 .script-accent {
   font-family: 'Sacramento', cursive;
@@ -324,4 +326,26 @@ main h2 {
   margin-top: 6px;
 }
 
+.name {
+  font-family: 'Sacramento', cursive;
+  font-size: 2.4rem;
+  margin-bottom: 16px;
+}
+
+.tagline {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+
+.bio p {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  font-weight: 400;
+  max-width: 520px;
+}
 
