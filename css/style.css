@@ -335,11 +335,23 @@ main h2 {
 
 .tagline {
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  display: inline-flex;
+  gap: 0.6rem;
+  white-space: nowrap;
   font-size: 0.9rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   opacity: 0.7;
   margin-bottom: 24px;
+}
+
+/* Allow wrapping on small screens */
+@media (max-width: 600px) {
+  .tagline {
+    white-space: normal;
+    flex-wrap: wrap;
+    row-gap: 0.4rem;
+  }
 }
 
 .bio p {
@@ -348,5 +360,22 @@ main h2 {
   line-height: 1.6;
   font-weight: 400;
   max-width: 520px;
+}
+
+.interest-line {
+  max-width: 520px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.95rem;
+  opacity: 0.85;
+  margin-top: 12px;
+}
+
+/* Let it wrap on smaller screens */
+@media (max-width: 700px) {
+  .interest-line {
+    white-space: normal;
+  }
 }
 
